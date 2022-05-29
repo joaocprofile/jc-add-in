@@ -1,0 +1,28 @@
+{
+  "name": "jc-add-in",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaocarvalhoprofile/jc-add-in.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaocarvalhoprofile/jc-add-in/issues"
+  },
+  "homepage": "https://github.com/joaocarvalhoprofile/jc-add-in#readme",
+  "devDependencies": {
+    "@swc/core": "^1.2.194",
+    "@swc/jest": "^0.2.21",
+    "@types/jest": "^27.5.1",
+    "jest": "^28.1.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.7.2"
+  }
+}
