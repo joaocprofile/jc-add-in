@@ -1,6 +1,6 @@
 import { CNPJ } from './CNPJ'
 
-describe('Validate document', () => {
+describe('Validate CNPJ', () => {
 
   test("Should be able to validate a valid CNPJ - A", function () {
     const cnpj = new CNPJ("08.053.005/0001-94")

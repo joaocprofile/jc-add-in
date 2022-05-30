@@ -1,6 +1,6 @@
 import { CPF } from './CPF'
 
-describe('Validate document', () => {
+describe('Validate CPF', () => {
 
   test("Should be able to validate a valid CPF - A", function () {
     const cpf = new CPF("935.411.347-80")

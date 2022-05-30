@@ -3,8 +3,6 @@ import { Validator } from "./validator"
 export class CNPJ implements Validator {
 
   private documentNumber: string
-  cnpj: any;
-  strCNPJ: any;
 
   constructor(documentNumber: string) {
     this.documentNumber = documentNumber
