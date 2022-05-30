@@ -1,8 +1,6 @@
-import {
-  DocumentValidator,
-} from "./documentValidador"
+import { Validator } from "./validator"
 
-export class CPF implements DocumentValidator {
+export class CPF implements Validator {
   private documentNumber: string
 
   constructor(documentNumber: string) {
@@ -49,9 +47,5 @@ export class CPF implements DocumentValidator {
 
   extractActualDigit(value: string): string {
     return value.slice(9)
-  }
-
-  getDocument(): string {
-    return this.documentNumber
   }
 }

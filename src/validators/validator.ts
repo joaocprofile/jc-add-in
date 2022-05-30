@@ -1,6 +1,5 @@
-export interface DocumentValidator {
+export interface Validator {
   validate(): boolean
-  getDocument(): string
   removeMask(): string
   isValidLength(value: string): boolean
   isValidFormat(value: string): boolean
