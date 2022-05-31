@@ -24,14 +24,7 @@ export class CEP implements Validator {
   }
 
   isValidFormat(value: string): boolean {
-    const cepFormat = value.substring(0, 5) + "-" + value.substring(5)
+    const cepFormat = value.slice(0, 5) + "-" + value.slice(5)
     return (/\d{5}\-\d{3}/).test(cepFormat) ? true : false
-  }
-
-  calculateDigit(value: string, factor: number): number {
-    return 0
-  }
-  extractActualDigit(value: string): string {
-    return ""
   }
 }
